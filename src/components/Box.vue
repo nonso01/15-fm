@@ -27,7 +27,6 @@ const linkItems = ref([
 onMounted(() => {
   const miniEffects = new On("div[data-link]", {
     click() {
-      log(this?.dataset.link);
       redirect.value = this?.dataset.link;
       overlay.value = true;
     },
@@ -76,14 +75,14 @@ onMounted(() => {
       @click="handleOverlay"
     ></div>
     <div
-      class="w-60 h-44 rounded-md bg-grey fixed flex flex-col justify-evenly items-center"
+      class="w-60 h-40 rounded-md bg-grey fixed flex flex-col justify-evenly items-center"
       data-dialog="o"
     >
       <p class="text-white text-xs font-medium">
         You'll be redirected to a different page!
       </p>
       <button
-        class="rounded-md bg-green text-off-black text-xs font-semibold w-[50%] h-10"
+        class="rounded-md bg-green text-off-black text-xs font-semibold w-[70%] h-10"
       >
         <a _target="blank" :href="redirect">Take me away!</a>
       </button>

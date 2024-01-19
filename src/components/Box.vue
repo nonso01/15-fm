@@ -34,7 +34,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="p-[5%] sm:p-[2%] bg-dark-grey w-[18.75rem] h-[34.375rem] flex flex-col justify-between rounded-lg"
+    class="p-[5%] sm:p-[2%] bg-dark-grey w-[18.75rem] sm:w-[22rem] h-[34.375rem] flex flex-col justify-between rounded-lg"
   >
     <div class="flex flex-col justify-evenly items-center h-[30%]">
       <!-- for the hero image and details -->

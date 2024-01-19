@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --o",
+    "dev": "vite",
     "style": "npx tailwindcss -i ./src/i.css -o ./src/o.css -w -p -m",
+    "format": "npx prettier . -w",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "on-dom": "^0.1.14",
     "vue": "^3.3.11"
   },
   "devDependencies": {

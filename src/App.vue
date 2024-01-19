@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Box from "./components/Box.vue";
+</script>
 
 <template>
-  <p class="font-bold font-sans underline text-2xl">hello World</p>
+  <Box />
 </template>

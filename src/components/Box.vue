@@ -2,8 +2,6 @@
 import { ref, onMounted } from "vue";
 import On from "on-dom";
 
-const log = console.log;
-
 const overlay = ref(false);
 const handleOverlay = () => (overlay.value = false);
 
@@ -25,7 +23,7 @@ const linkItems = ref([
 ]);
 
 onMounted(() => {
-  const miniEffects = new On("div[data-link]", {
+   new On("div[data-link]", {
     click() {
       redirect.value = this?.dataset.link;
       overlay.value = true;

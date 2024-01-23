@@ -7,11 +7,11 @@
     "dev": "vite",
     "style": "npx tailwindcss -i ./src/i.css -o ./src/o.css -w -p -m",
     "format": "npx prettier . -w",
-    "build": "vite build",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "on-dom": "^0.1.14",
+    "on-dom": "^0.1.15",
     "vue": "^3.3.11"
   },
   "devDependencies": {

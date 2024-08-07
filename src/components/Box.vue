@@ -39,7 +39,7 @@ onMounted(() => {
     <div class="flex flex-col justify-evenly items-center h-[30%]">
       <!-- for the hero image and details -->
       <img
-        src="../assets/nonso01.jpg"
+        src="../nonso01.jpg"
         alt="nonso martin"
         class="w-16 h-16 rounded-full transition-colors outline outline-offset-4 outline-dark-grey hover:outline-green"
       />

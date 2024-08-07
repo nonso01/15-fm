@@ -18,7 +18,7 @@ const linkItems = ref([
     link: "https://www.linkedin.com/in/nonso-martin-80b221238",
     text: "LinkedIn",
   },
-  { link: "https://x.com/NonsoMartin6", text: "Twitter" },
+  { link: "https://x.com/nonso0X", text: "Twitter" },
   { link: "https://nonso01.vercel.app", text: "Portfolio" },
 ]);
 

@@ -11,8 +11,8 @@ const redirect = ref("");
 const linkItems = ref([
   { link: "https://github.com/nonso01", text: "Github" },
   {
-    link: "chukwunonsomartin01@gmail.com",
-    text: "Gmail",
+    link: "https://leetcode.com/u/nonso01/",
+    text: "Leetcode",
   },
   {
     link: "https://www.linkedin.com/in/nonso-martin-80b221238",

@@ -11,8 +11,8 @@ const redirect = ref("");
 const linkItems = ref([
   { link: "https://github.com/nonso01", text: "Github" },
   {
-    link: "https://www.frontendmentor.io/profile/nonso01",
-    text: "Frontend Mentor",
+    link: "chukwunonsomartin01@gmail.com",
+    text: "Gmail",
   },
   {
     link: "https://www.linkedin.com/in/nonso-martin-80b221238",
@@ -39,7 +39,7 @@ onMounted(() => {
     <div class="flex flex-col justify-evenly items-center h-[30%]">
       <!-- for the hero image and details -->
       <img
-        src="../nonso01.jpg"
+        src="../svrou0.jpg"
         alt="nonso martin"
         class="w-16 h-16 rounded-full transition-colors outline outline-offset-4 outline-dark-grey hover:outline-green"
       />

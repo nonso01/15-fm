@@ -44,12 +44,12 @@ onMounted(() => {
         class="w-16 h-16 rounded-full transition-colors outline outline-offset-4 outline-dark-grey hover:outline-green"
       />
       <h3 class="text-white text-xl font-semibold font-sans">Nonso Martin</h3>
-      <p class="text-green font-sans font-semibold text-xs">Enugu , Nigeria</p>
+      <p class="text-green font-sans font-semibold text-xs">Enugu , Lagos</p>
     </div>
     <!-- -->
     <div>
       <p class="text-white text-xs font-sans text-center">
-        "Front-end developer and Medical Scientist"
+        "Front-end developer and Med Lab Scientist"
       </p>
     </div>
 

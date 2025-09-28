@@ -15,7 +15,7 @@ const linkItems = ref([
     text: "Leetcode",
   },
   {
-    link: "https://www.linkedin.com/in/nonso-martin-80b221238",
+    link: "https://www.linkedin.com/in/nonso0x",
     text: "LinkedIn",
   },
   { link: "https://x.com/nonso0X", text: "Twitter" },

@@ -19,7 +19,7 @@ const linkItems = ref([
     text: "LinkedIn",
   },
   { link: "https://x.com/nonso0X", text: "Twitter" },
-  { link: "https://nonso01.vercel.app", text: "Portfolio" },
+  { link: "https://nox-dev.vercel.app", text: "Portfolio" },
 ]);
 
 onMounted(() => {

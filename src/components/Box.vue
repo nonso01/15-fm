@@ -6,7 +6,6 @@ const overlay = ref(false);
 const handleOverlay = () => (overlay.value = false);
 
 const redirect = ref("");
-// const pointer = <{ x: number; y: number }>ref({ x: 0, y: 0 });
 
 const linkItems = ref([
   { link: "https://github.com/nonso01", text: "Github" },
@@ -39,7 +38,7 @@ onMounted(() => {
     <div class="flex flex-col justify-evenly items-center h-[30%]">
       <!-- for the hero image and details -->
       <img
-        src="../svrou0.jpg"
+        src="https://avatars.githubusercontent.com/u/84927159?v=4"
         alt="nonso martin"
         class="w-16 h-16 rounded-full transition-colors outline outline-offset-4 outline-dark-grey hover:outline-green"
       />
@@ -49,7 +48,7 @@ onMounted(() => {
     <!-- -->
     <div>
       <p class="text-white text-xs font-sans text-center">
-        "Front-end developer and Med Lab Scientist"
+        Web Developer & Security analyst
       </p>
     </div>
 

@@ -38,7 +38,7 @@ onMounted(() => {
     <div class="flex flex-col justify-evenly items-center h-[30%]">
       <!-- for the hero image and details -->
       <img
-        src="https://avatars.githubusercontent.com/u/84927159?v=4"
+        src="../nonso-pfp.jpg"
         alt="nonso martin"
         class="w-16 h-16 rounded-full transition-colors outline outline-offset-4 outline-dark-grey hover:outline-green"
       />
